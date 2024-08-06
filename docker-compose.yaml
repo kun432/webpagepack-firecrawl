@@ -1,0 +1,9 @@
+services:
+  webpagepack-firecrawl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    ports:
+      - "8501:8501"
+

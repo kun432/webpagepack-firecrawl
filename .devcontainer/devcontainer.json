@@ -1,0 +1,16 @@
+{
+	"build": {
+		"dockerfile": "../Dockerfile",
+		"target": "devcontainer"
+	},	
+	"forwardPorts": [
+		8501
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"charliermarsh.ruff"
+			]
+		}
+	}
+}
